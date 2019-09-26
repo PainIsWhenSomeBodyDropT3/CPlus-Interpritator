@@ -1,0 +1,102 @@
+Текст без ошибок 
+------ Протокол ----- Дата: 14:13:57 26.09.2019 ----------
+------ Параметры ----------
+-log: D:\лабы\2курс\япэ\lab_13\lab13\lab13\In.txt.log.txt
+-out: D:\лабы\2курс\япэ\lab_13\lab13\lab13\In.txt.out.txt
+-in: D:\лабы\2курс\япэ\lab_13\lab13\lab13\In.txt.txt
+	Таблица лексем:
+
+0.	tfi(ti,ti)
+1.	{
+2.	dti;
+3.	i=iv(ivi)vlvl;
+4.	ri;
+5.	};
+7.	tfi(ti,ti)
+8.	{
+9.	dti;
+10.	dtfi(ti,ti,ti);
+12.	i=i(i,l,l)vi;
+13.	ri;
+14.	};
+16.	m
+17.	{
+18.	dti=l;
+19.	dti;
+20.	dti;
+21.	dti=l;
+22.	dti;
+23.	dti;
+24.	dtfi(ti);
+25.	i=l;
+26.	i=l;
+27.	i=l;
+28.	i=i(i,i);
+29.	i=i(i,i);
+30.	pl;
+31.	pi;
+32.	pi;
+33.	pi(i);
+34.	rl;
+35.	}
+
+	Таблица идентификаторов:
+Строка	Тип Id		Тип переменной	Имя		Значение
+-1	2		2		fi		0
+-1	3		2		x		0
+-1	3		2		y		0
+-1	1		2		z		0
+3	1		1		z		FREE VARIABLE
+1	1		1		x		FREE VARIABLE
+5	1		1		x		FREE VARIABLE
+2	1		1		y		FREE VARIABLE
+3	4		2		LITERAL315		20
+3	4		2		LITERAL319		2
+4	1		1		z		FREE VARIABLE
+-1	2		3		fs		
+-1	3		3		a		
+-1	3		3		b		
+-1	1		3		c		
+-1	2		3		substr		
+-1	3		3		a		
+-1	3		2		p		0
+-1	3		2		n		0
+14	1		1		c		FREE VARIABLE
+15	1		1		substr		FREE VARIABLE
+16	1		1		a		FREE VARIABLE
+12	4		2		LITERAL1215		1
+12	4		2		LITERAL1217		3
+13	1		1		b		FREE VARIABLE
+19	1		1		c		FREE VARIABLE
+-1	1		2		xrwet		0
+18	4		2		LITERAL1829		10
+-1	1		2		y		0
+-1	1		2		z		0
+-1	1		3		sa		
+21	4		3		LITERAL2121		'1234    67890'
+-1	1		3		sb		
+-1	1		3		sc		
+-1	2		2		strlen		0
+-1	3		3		p		
+6	1		1		x		FREE VARIABLE
+25	4		2		LITERAL255		1
+28	1		1		y		FREE VARIABLE
+26	4		2		LITERAL265		5
+32	1		1		sb		FREE VARIABLE
+27	4		3		LITERAL276		'1234567890'
+29	1		1		z		FREE VARIABLE
+0	1		1		fi		FREE VARIABLE
+36	1		1		x		FREE VARIABLE
+38	1		1		y		FREE VARIABLE
+33	1		1		sc		FREE VARIABLE
+11	1		1		fs		FREE VARIABLE
+30	1		1		sa		FREE VARIABLE
+40	1		1		sb		FREE VARIABLE
+30	4		3		LITERAL307		' '
+42	1		1		z		FREE VARIABLE
+46	1		1		sc		FREE VARIABLE
+34	1		1		strlen		FREE VARIABLE
+52	1		1		sc		FREE VARIABLE
+34	4		2		LITERAL348		0
+
+
