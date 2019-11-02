@@ -148,13 +148,14 @@ namespace PN
 		}
 		finalExpression[j] = LEX_END;
 		bool isEnd = false;
-		for (int i = 0; i < (int)strlen(finalExpression); i++)
+		int saveI = 0;
+		for (int i = 0; i < (int)strlen(postExpression); i++)
 		{
 			if (i == (int)strlen(finalExpression)) {
 				isEnd = true;
 			}
 			if (isEnd) {
-				ltable.table[startLex + i].lexema = FILL_SYMBOL;
+				ltable.table[startLex + i].lexema = LEX_END;
 			}
 			else {
 				ltable.table[startLex + i].lexema = finalExpression[i];
@@ -170,11 +171,17 @@ namespace PN
 	{
 		
 
-			if (PolishNotation(30, ltable, itable))
+			if (PolishNotation(6, ltable, itable))
 				std::cout << 3 + globalCounter << ": польская запись построена" << endl;
 			else
 				std::cout << 3 + globalCounter << ": польская запись не построена" << endl;
-		
+/*
+			
+		  if (PolishNotation(30, ltable, itable))
+				std::cout << 30 + globalCounter << ": польская запись построена" << endl;
+			else
+				std::cout << 30 + globalCounter << ": польская запись не построена" << endl;
+		*/
 		
 	//	}
 

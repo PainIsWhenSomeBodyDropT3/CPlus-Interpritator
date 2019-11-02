@@ -1,5 +1,5 @@
 Текст без ошибок 
------- Протокол ----- Дата: 21:20:50 11.10.2019 ----------
+------ Протокол ----- Дата: 13:59:43 02.11.2019 ----------
 ------ Параметры ----------
 -log: D:\лабы\2курс\япэ\lab_13\lab13\lab13\In.txt.log.txt
 -out: D:\лабы\2курс\япэ\lab_13\lab13\lab13\In.txt.out.txt
@@ -7,184 +7,57 @@
 ------ Исходные данные ----------
 --------Текст----------
 ___________
-integer function fi(integer x, integer y)
+
+main  
 {
- declare  integer z;
- z= x*(x+y) - 20 / 2;
- return z; 
+declare string  str = 'dddddd';
+declare integer int = 5;
+declare integer k;
+k=6+6;
+return 0;
 };
 
-string function fs (string a, string b)
+string function fi(integer k)
 {
- declare  string c;
-
- declare  string function substr(string a, integer p,integer n);
- c = substr(a, 1,3)+ b;
- return c; 
+declare string str = 'sdfsdf';
+return str;
 };
 
-main
-{
- declare integer xrwe = 10;
- declare integer y;
- declare integer z;
- declare string sa = '1234    67890';
- declare string sb;
- declare string sc;
- declare integer function strlen(string p);
- x = 1;
- y = 50000;
- sb = '1234567890'; 
- z = fi(x,y);
- sc = fs(sa,sb);
- x = 1+1+1+y/4;
- print ' ';
- print z;
- print sc;
- print strlen(sc);
- return 0;
-};
 ___________
-Кол-во символов: 638
+Кол-во символов: 185
 Проигнорированно: 0
-Строк: 36
+Строк: 15
 	Таблица лексем:
 
-0.	tfi(ti,ti)
-1.	{
-2.	dti;
-3.	i=iv(ivi)vlvl;
-4.	ri;
-5.	};
-7.	tfi(ti,ti)
-8.	{
-9.	dti;
-11.	dtfi(ti,ti,ti);
-12.	i=i(i,l,l)vi;
+1.	m
+2.	{
+3.	dti=l;
+4.	dti=l;
+5.	dti;
+6.	i=lvl;
+7.	rl;
+8.	};
+10.	tfi(ti)
+11.	{
+12.	dti=l;
 13.	ri;
-14.	};
-16.	m
-17.	{
-18.	dti=l;
-19.	dti;
-20.	dti;
-21.	dti=l;
-22.	dti;
-23.	dti;
-24.	dtfi(ti);
-25.	i=l;
-26.	i=l;
-27.	i=l;
-28.	i=i(i,i);
-29.	i=i(i,i);
-30.	i=lvlvlvivl;
-31.	pl;
-32.	pi;
-33.	pi;
-34.	pi(i);
-35.	rl;
-36.	}
+14.	}
 
 	Таблица идентификаторов:
 Строка	Тип Id		Тип переменной	Имя		Значение
-0	2		2		fi		0
-0	3		2		x		0
-0	3		2		y		0
-2	1		2		z		0
-3	1		1		z		FREE VARIABLE
-3	1		1		x		FREE VARIABLE
-3	1		1		x		FREE VARIABLE
-3	1		1		y		FREE VARIABLE
-3	4		2		LITERAL315		20
-3	4		2		LITERAL319		2
-4	1		1		z		FREE VARIABLE
-7	2		3		fs		
-7	3		3		a		
-7	3		3		b		
-9	1		3		c		
-11	2		3		substr		
-11	3		3		a		
-11	3		2		p		0
-11	3		2		n		0
-12	1		1		c		FREE VARIABLE
-12	1		1		substr		FREE VARIABLE
-12	1		1		a		FREE VARIABLE
-12	4		2		LITERAL1215		1
-12	4		2		LITERAL1217		3
-12	1		1		b		FREE VARIABLE
-13	1		1		c		FREE VARIABLE
-18	1		2		xrwe		0
-18	4		2		LITERAL1825		10
-19	1		2		y		0
-20	1		2		z		0
-21	1		3		sa		
-21	4		3		LITERAL2121		'1234    67890'
-22	1		3		sb		
-23	1		3		sc		
-24	2		2		strlen		0
-24	3		3		p		
-25	1		1		x		FREE VARIABLE
-25	4		2		LITERAL255		1
-26	1		1		y		FREE VARIABLE
-26	4		2		LITERAL269		50000
-27	1		1		sb		FREE VARIABLE
-27	4		3		LITERAL276		'1234567890'
-28	1		1		z		FREE VARIABLE
-28	1		1		fi		FREE VARIABLE
-28	1		1		x		FREE VARIABLE
-28	1		1		y		FREE VARIABLE
-29	1		1		sc		FREE VARIABLE
-29	1		1		fs		FREE VARIABLE
-29	1		1		sa		FREE VARIABLE
-29	1		1		sb		FREE VARIABLE
-30	1		1		x		FREE VARIABLE
-30	4		2		LITERAL305		1
-30	4		2		LITERAL307		1
-30	4		2		LITERAL309		1
-30	1		1		y		FREE VARIABLE
-30	4		2		LITERAL3013		4
-31	4		3		LITERAL317		' '
-32	1		1		z		FREE VARIABLE
-33	1		1		sc		FREE VARIABLE
-34	1		1		strlen		FREE VARIABLE
-34	1		1		sc		FREE VARIABLE
-35	4		2		LITERAL358		0
+3	1		3		str		
+3	4		3		LITERAL321		'dddddd'
+4	1		2		int		0
+4	4		2		LITERAL422		5
+5	1		2		k		0
+6	1		1		k		FREE VARIABLE
+6	4		2		LITERAL62		6
+6	4		2		LITERAL64		6
+7	4		2		LITERAL77		0
+10	2		3		fi		
+10	3		2		k		0
+12	1		3		str		
+12	4		3		LITERAL1221		'sdfsdf'
+13	1		1		str		FREE VARIABLE
 
-
-	Таблица лексем:
-
-0.	tfi(ti,ti)
-1.	{
-2.	dti;
-3.	i=iv(ivi)vlvl;
-4.	ri;
-5.	};
-7.	tfi(ti,ti)
-8.	{
-9.	dti;
-11.	dtfi(ti,ti,ti);
-12.	i=i(i,l,l)vi;
-13.	ri;
-14.	};
-16.	m
-17.	{
-18.	dti=l;
-19.	dti;
-20.	dti;
-21.	dti=l;
-22.	dti;
-23.	dti;
-24.	dtfi(ti);
-25.	i=l;
-26.	i=l;
-27.	i=l;
-28.	i=i(i,i);
-29.	i=i(i,i);
-30.	i=ll+l+il/+;
-31.	pl;
-32.	pi;
-33.	pi;
-34.	pi(i);
-35.	rl;
-36.	}
 

@@ -43,6 +43,7 @@ namespace LT
 		char lexema;
 		int sn;							//номер строки в тексте
 		int indxTI;						//индекс в таблице идентификаторов или LT_TI_NULLIDX
+		//int line;
 	};
 
 	struct LexTable						//экземпяр таблицы лексем
@@ -53,6 +54,7 @@ namespace LT
 	};
 	LexTable Create(int);				//создать таблицу лексем(емкость таблицы лексем < LT_MAXSIZE)
 	void Add(LexTable&, Entry&);			//добавить строку в таблицу лексем(lextable, entry)
-	Entry GetEntry(LexTable&, int);		//получить строку таблицы лексем(lextable, 'номер получаемой строки')
-	void Delete(LexTable&);				//удалить таблицу лексем
+	Entry *GetEntry(LexTable&, int);		//получить строку таблицы лексем(lextable, 'номер получаемой строки')
+	void Delete(LexTable&);		//удалить таблицу лексем
+	char* PrintTable(LexTable& lexTable);
 }

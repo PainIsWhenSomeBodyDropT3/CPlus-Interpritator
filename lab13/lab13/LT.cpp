@@ -28,10 +28,18 @@ namespace LT
 		ltable.table = nullptr;
 	}
 
-	Entry GetEntry(LexTable& ltable, int nstr)
+	Entry *GetEntry(LexTable& ltable, int nstr)
 	{
 		if (ltable.size < nstr || nstr < 0)
 			throw ERROR_THROW(5);
-		return ltable.table[nstr];
+		return &ltable.table[nstr];
+	}
+	char* PrintTable(LexTable& lexTable) {
+		char *str = new char[lexTable.size + 1];
+		for (int i = 0; i < lexTable.size; i++) {
+			str[i] = GetEntry(lexTable, i)->lexema;
+		}
+		str[lexTable.size] = '\0';
+		return str;
 	}
 }

@@ -10,6 +10,7 @@
 #include "IT.h"
 #include "LT.h"
 #include "PolishNotation.h"
+#include "MFST.h"
 using namespace std;
 int main(int argc, const wchar_t* argv[])
 {
@@ -36,8 +37,11 @@ int main(int argc, const wchar_t* argv[])
 		RE::ChainRecognition(log, in, parm,ltable,itable);
 		Log::writeLexTable(Log::getLog(parm.log), ltable);
 		Log::WriteId(Log::getLog(parm.log), itable);
-		PN::showPolishNotation(ltable, itable);
-		Log::writeLexTable(Log::getLog(parm.log), ltable);
+		//PN::showPolishNotation(ltable, itable);
+		//Log::writeLexTable(Log::getLog(parm.log), ltable);
+
+		MFST::Mfst *automatos = new MFST::Mfst(ltable, GRB::getGreibach());
+		automatos->start();
 		
 		IT::Delete(itable);
 		LT::Delete(ltable);
